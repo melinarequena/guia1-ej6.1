@@ -22,4 +22,5 @@ int main(){
         printf("Precio del medicamento %d\n", i+1);
         scanf("%.2f", &remedios[i].precio);
     }
+    encargar(remedios);
 }
